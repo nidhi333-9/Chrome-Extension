@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 10px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#input-el {
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#input-btn {
+    margin-top: 30px;
+    width: 150px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#input-btn:hover {
+    border: 2px solid blue;
+    color: blue;
+    background-color: aliceblue;
+}
