@@ -15,22 +15,24 @@ body {
     border-radius: 2px;
 }
 
-#input-btn {
+button {
     margin-top: 30px;
     width: 150px;
     background-color: blue;
     color: aliceblue;
-    border: none;
+    border: 2px solid blue;
     border-radius: 5px;
     padding: 10px;
     font-weight: bold;
     cursor: pointer;
+
 }
 
-#input-btn:hover {
-    border: 2px solid blue;
-    color: blue;
+
+#delete-btn {
+    margin-left: 20px;
     background-color: aliceblue;
+    color: blue;
 }
 
 ul {
